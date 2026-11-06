@@ -236,6 +236,29 @@ DARK_THEME_CSS = """
 """
 st.markdown(DARK_THEME_CSS, unsafe_allow_html=True)
 
+# Refined visual layer: typography, contrast, spacing and responsive polish.
+POLISH_CSS = r"""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root { --cp-bg:#080d19; --cp-panel:#111b2d; --cp-line:rgba(148,163,184,.16); --cp-muted:#a8b5c8; --cp-teal:#45e6d0; --cp-purple:#a78bfa; }
+html, body, [class*="css"], .stApp { font-family:'DM Sans',sans-serif !important; }
+h1,h2,h3,h4,h5,h6,.brand-title,.summary-value,.auth-title { font-family:'Manrope',sans-serif !important; }
+.stApp { background:radial-gradient(ellipse at 12% 0%, rgba(124,58,237,.13), transparent 36%), radial-gradient(ellipse at 88% 8%, rgba(0,245,212,.08), transparent 30%), var(--cp-bg) !important; }
+.main .block-container { max-width:1440px; padding-top:2rem; padding-bottom:3rem; }
+[data-testid="stMetric"] { background:linear-gradient(145deg,rgba(20,32,52,.98),rgba(13,22,38,.98)); border:1px solid var(--cp-line); border-radius:16px; padding:16px 18px; box-shadow:0 8px 24px rgba(0,0,0,.16); }
+[data-testid="stMetricLabel"] { color:var(--cp-muted) !important; font-weight:600 !important; }
+[data-testid="stMetricValue"] { font-family:'Manrope',sans-serif !important; font-weight:800 !important; }
+[data-testid="stTabs"] button { font-weight:600 !important; }
+[data-baseweb="input"] > div, [data-baseweb="select"] > div, [data-baseweb="textarea"] > div { border-radius:10px !important; border-color:rgba(148,163,184,.25) !important; }
+[data-baseweb="input"]:focus-within, [data-baseweb="select"]:focus-within, [data-baseweb="textarea"]:focus-within { border-color:var(--cp-teal) !important; box-shadow:0 0 0 1px rgba(69,230,208,.28) !important; }
+.stButton > button, button[kind="primary"] { min-height:42px; letter-spacing:.1px; }
+[data-testid="stDataFrame"], [data-testid="stTable"] { border:1px solid var(--cp-line); border-radius:12px; overflow:hidden; }
+hr { border-color:var(--cp-line) !important; }
+@media (max-width:768px) { .main .block-container { padding-left:1rem; padding-right:1rem; padding-top:1rem; } .summary-value { font-size:22px !important; } }
+</style>
+"""
+st.markdown(POLISH_CSS, unsafe_allow_html=True)
+
 # ------------------------------------------------------------------------------
 # 2. CONSTANTS & SYSTEM CONFIGURATION
 # ------------------------------------------------------------------------------
