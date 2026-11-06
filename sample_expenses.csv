@@ -1,0 +1,17 @@
+ID,Date,Category,Amount,Payment Method,Description,Notes
+1,2026-03-01,Accommodation & Rent,6500.0,UPI,Monthly Hostel/PG Rent,Paid via Google Pay to landlord
+2,2026-03-02,College Fees,2500.0,Net Banking,Exam & Lab Semester Fee,College ERP portal payment
+3,2026-03-03,Education & Study Materials,650.0,Card,Management Accounting Reference Book,College bookstore
+4,2026-03-04,Groceries,480.0,UPI,"Milk, Bread, Fruits & Oatmeal",Weekly dorm grocery restock
+5,2026-03-05,Food & Dining,280.0,UPI,Campus Cafeteria Lunch,Thali + cold beverage
+6,2026-03-06,Transportation,150.0,Cash,Metro Smart Card Recharge,Commute to college
+7,2026-03-07,Mobile & Internet,299.0,UPI,Monthly 5G Mobile Data Plan,Prepaid recharge
+8,2026-03-08,Personal Care & Hygiene,320.0,Card,Toiletries & Skincare,Pharmacy mart
+9,2026-03-10,Entertainment,400.0,UPI,Weekend Movie Ticket & Popcorn,PVR Inox with roommates
+10,2026-03-11,Subscriptions,199.0,Card,Spotify Premium Student Plan,Auto-debit
+11,2026-03-12,Shopping & Clothing,1450.0,Card,College Formal Shirt & Trousers,Presentation attire
+12,2026-03-14,Health & Medical Expenses,350.0,Cash,Allergy Medicine & Cough Syrup,Campus health center prescription
+13,2026-03-15,Travel,600.0,UPI,Weekend Bus Ticket Home,Intercity bus
+14,2026-03-17,Alcohol,450.0,UPI,Weekend Social Gathering,Room party contribution
+15,2026-03-18,Food & Dining,180.0,UPI,Evening Cold Coffee & Snacks,Library cafe
+16,2026-03-20,Miscellaneous / Others,120.0,Cash,Project Xerox & Spiral Binding,Stationery stall
